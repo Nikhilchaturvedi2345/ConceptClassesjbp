@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses Description</title>
+    <!-- <script src="menu.js"></script> -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .tab-pane {
+            display: none;
+        }
+
+        .tab-pane.active {
+            display: block;
+        }
+    </style>
+
+</head>
+
+<body class="bg-slate-50">
+
+
+
+
+    <nav class="
+      flex flex-wrap
+      items-center
+      justify-between
+      w-full
+      py-4
+      md:py-0
+      px-4
+      text-lg text-gray-700
+      bg-white
+      container
+      md:mt-12
+      pt-5
+      md:pt-10
+      rounded-t-xl
+    ">
+        <div>
+            <a href="./practice01.html">
+                <img src="https://yt3.googleusercontent.com/Q3wx2HmNayVLtKKTJC4FsvEgrwhxksdSTVSURn_wNRX9nWofSAnigW4Sw_v4hsvP9DJ00fwlTQ=s176-c-k-c0x00ffffff-no-rj" alt="Logo png" class="w-12 h-12 rounded-full">
+            </a>
+            
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" id="menu-button" class="h-6 w-6 cursor-pointer md:hidden block"
+            fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+
+        <div class="hidden w-full md:flex md:items-center md:w-auto" id="menu">
+            <ul class="
+          pt-4
+          text-base text-gray-700
+          md:flex
+          md:justify-between 
+          md:pt-0">
+                <li>
+                    <a class="md:p-4 py-2 block hover:text-purple-400" href="#">All Courses</a>
+                </li>
+                <li>
+                    <a class="md:p-4 py-2 block hover:text-purple-400" href="#">Daily Quiz</a>
+                </li>
+                <li>
+                    <a class="md:p-4 py-2 block hover:text-purple-400" href="#">About Us</a>
+                </li>
+                <li>
+                    <a class="md:p-4 py-2 block hover:text-purple-400 text-purple-500" href="./signUp.html">Sign Up</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container bg-white">
+
+        <hr>
+        <h1 class="text-4xl font-semibold font-sans py-3">Explore Exam <span class="text-blue-700">Categories</span>
+        </h1>
+    </div>
+    <div class="bg-white container grid  grid-cols-12 mb-10 md:h-screen">
+        <!-- Tabs -->
+        <div
+            class="catergories shadow-2xl  shadow-slate-200 px-3 rounded col-start-1 col-end-12 md:col-start-1 md:col-end-5 lg:col-end-3 h-fit p-5">
+            <ul class="uppercase text-lg w-0" id="nav-tab">
+                <li class="my-4 mx-auto active">
+                    <a href="#SSC" class="new1">SSC</a>
+                </li>
+                <li class="my-4 mx-auto">
+                     <a href="#profile" class="new1">BANK</a>
+                </li>
+                <li class="my-4 mx-auto">
+                    <a href="#messages" class="new1">RAILWAYS</a>
+                </li>
+                <li class="my-4 mx-auto">
+                    <a href="#settings" class="new1">CDS</a>
+                </li>
+                <li class="my-4 mx-auto">
+                    <a href="#settings" class="new1">POLICE</a>
+                </li>
+                <li class="my-4 mx-auto">
+                    <a href="#settings" class="new1">CET</a>
+                </li>
+                <li class="my-4 mx-auto">
+                    <a href="#settings" class="new1">VYAPAM</a>
+                </li>
+            </ul>
+        </div>
+        <!-- Tab panes -->
+        <div
+            class="displaycontent  col-start-1 col-end-12 md:col-start-5 md:col-end-12 lg:col-start-4 flex justify-center flex-wrap lg:justify-start  tab-content">
+            <div class="tab-pane active" id="SSC">
+                <div
+                    class="card ms-5 mt-5 p-3 w-72 h-52 border inline-flex flex-col justify-between overflow-hidden rounded shadow-md shadow-slate-200">
+                    <h4 class="font-semibold text-2xl my-2">
+                        SSC <span class="font-mono text-sm">Lakhsya</span>
+                        <p class="text-gray-500 text-lg">Batches</p>
+                    </h4>
+                    <div class="rounded-full w-36 h-36 content-center border relative -right-40 -top-3">
+                        <img src="https://images.unsplash.com/photo-1544717305-2782549b5136?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                            alt="teacher imagee" class="rounded-full w-36 h-36 object-cover object-top ">
+                    </div>
+                        <button
+                        class="bg-blue-600 p-2 rounded text-white inline-block w-1/2 -mt-20 hover:bg-blue-700" onclick="window.location.href='./CourseDetails.html'">Details</button>
+
+                </div>
+                <div
+                    class="card ms-5 mt-5 p-3 w-72 h-52 border inline-flex flex-col justify-between overflow-hidden rounded shadow-md shadow-slate-200">
+                    <h4 class="font-semibold text-2xl my-2">
+                        SSC <span class="font-mono text-sm">nayan</span>
+                        <p class="text-gray-500 text-lg">Batches</p>
+                    </h4>
+                    <div class="rounded-full w-36 h-36 content-center border relative -right-40 -top-3">
+                        <img src="https://images.unsplash.com/photo-1544717305-2782549b5136?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                            alt="teacher imagee" class="rounded-full w-36 h-36 object-cover object-top ">
+                    </div>
+                    <button
+                        class="bg-blue-600 p-2 rounded text-white inline-block w-1/2 -mt-20 hover:bg-blue-700" onclick="window.location.href='./CourseDetails.html'">Details</button>
+                </div>
+                <div
+                    class="card ms-5 mt-5 p-3 w-72 h-52 border inline-flex flex-col justify-between overflow-hidden rounded shadow-md shadow-slate-200">
+                    <h4 class="font-semibold text-2xl my-2">
+                        ssc <span class="font-mono text-sm">yudh</span>
+                        <p class="text-gray-500 text-lg">Batches</p>
+                    </h4>
+                    <div class="rounded-full w-36 h-36 content-center border relative -right-40 -top-3">
+                        <img src="https://images.unsplash.com/photo-1544717305-2782549b5136?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                            alt="teacher imagee" class="rounded-full w-36 h-36 object-cover object-top ">
+                    </div>
+                    <button
+                        class="bg-blue-600 p-2 rounded text-white inline-block w-1/2 -mt-20 hover:bg-blue-700" onclick="window.location.href='./CourseDetails.html'">Details</button>
+                </div>
+            </div>
+            <div class="tab-pane" id="profile">
+                <div
+                    class="card ms-5 mt-5 p-3 w-72 h-52 border inline-flex flex-col justify-between overflow-hidden rounded shadow-md shadow-slate-200">
+                    <h4 class="font-semibold text-2xl my-2">
+                        Bank <span class="font-mono text-sm">Apna</span>
+                        <p class="text-gray-500 text-lg">Batches</p>
+                    </h4>
+                    <div class="rounded-full w-36 h-36 content-center border relative -right-40 -top-3">
+                        <img src="https://images.unsplash.com/photo-1544717305-2782549b5136?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                            alt="teacher imagee" class="rounded-full w-36 h-36 object-cover object-top ">
+                    </div>
+                    <button
+                        class="bg-blue-600 p-2 rounded text-white inline-block w-1/2 -mt-20 hover:bg-blue-700" onclick="window.location.href='./CourseDetails.html'">Details</button>
+                </div>
+            </div>
+            <div class="tab-pane" id="messages">
+                <div
+                    class="card ms-5 mt-5 p-3 w-72 h-52 border inline-flex flex-col justify-between overflow-hidden rounded shadow-md shadow-slate-200">
+                    <h4 class="font-semibold text-2xl my-2">
+                        Class 11<sup>th</sup> 1st
+                        <p class="text-gray-500 text-lg">Batches</p>
+                    </h4>
+                    <div class="rounded-full w-36 h-36 content-center border relative -right-40 -top-3">
+                        <img src="https://images.unsplash.com/photo-1544717305-2782549b5136?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                            alt="teacher imagee" class="rounded-full w-36 h-36 object-cover object-top ">
+                    </div>
+                    <button
+                        class="bg-blue-600 p-2 rounded text-white inline-block w-1/2 -mt-20 hover:bg-blue-700" onclick="window.location.href='./CourseDetails.html'">Details</button>
+                </div>
+            </div>
+            <div class="tab-pane" id="settings">
+                <div
+                    class="card ms-5 mt-5 p-3 w-72 h-52 border inline-flex flex-col justify-between overflow-hidden rounded shadow-md shadow-slate-200">
+                    <h4 class="font-semibold text-2xl my-2">
+                        Class 11<sup>th</sup> 1st
+                        <p class="text-gray-500 text-lg">Batches</p>
+                    </h4>
+                    <div class="rounded-full w-36 h-36 content-center border relative -right-40 -top-3">
+                        <img src="https://images.unsplash.com/photo-1544717305-2782549b5136?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                            alt="teacher imagee" class="rounded-full w-36 h-36 object-cover object-top ">
+                    </div>
+                    <button
+                        class="bg-blue-600 p-2 rounded text-white inline-block w-1/2 -mt-20 hover:bg-blue-700" onclick="window.location.href='./CourseDetails.html'">Details</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+
+    function onTabClick(event) {
+        let activeTabs = document.querySelectorAll('.active');
+        activeTabs.forEach(function (tab) {
+            tab.className = tab.className.replace('active', '');
+        });
+        event.target.parentElement.className += ' active';
+        document.getElementById(event.target.href.split('#')[1]).className += ' active';
+    }
+
+    const element = document.getElementById('nav-tab');
+
+    element.addEventListener('click', onTabClick, false);
+
+
+</script>
+<script>
+    // navbar 
+    const button = document.querySelector('#menu-button');
+    const menu = document.querySelector('#menu');
+
+
+    button.addEventListener('click', () => {
+        menu.classList.toggle('hidden');
+    });
+
+</script>
+
+</html>

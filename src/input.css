@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active .new {
+    @apply text-blue-700 cursor-pointer shadow-slate-200 shadow-md
+}
+
+.new {
+    @apply block rounded bg-white hover:text-blue-700 m-3 p-3.5 w-12
+}
+.active .new1 {
+    @apply text-blue-700 cursor-pointer shadow-slate-200 shadow-md
+}
+
+.new1 {
+    @apply block rounded bg-white hover:text-blue-700 m-3 p-3.5 w-60 md:w-28 xl:w-36
+}
+
+.action .modurate {
+    @apply cursor-pointer border-b-4 border-purple-400 text-lg
+}
+
+.modurate {
+    @apply block rounded bg-white hover:border-b-4 hover:border-purple-400 py-2 text-lg font-bold
+}
+
+/* 
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities"; */
